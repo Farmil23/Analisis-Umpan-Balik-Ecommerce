@@ -1,0 +1,8 @@
+pandas
+seaborn
+matplotlib
+wordcloud
+langchain_community
+replicate
+scipy
+nltk
