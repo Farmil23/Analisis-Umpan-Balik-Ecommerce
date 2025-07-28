@@ -13,10 +13,10 @@ Metode manual ini secara langsung menyebabkan kerugian bisnis. Keputusan produk 
 Permasalahan utama yang dihadapi PT. Ritel Cemerlang adalah ketidakmampuan mengubah volume besar ulasan pelanggan menjadi wawasan bisnis strategis akibat ketergantungan pada metode analisis manual yang tidak efisien.
 
 Hal ini secara langsung menyebabkan kerugian dan kehilangan peluang di berbagai area bisnis inti:
-    * Pengembangan Produk menjadi tidak terarah:\*\* Keputusan penting dibuat berdasarkan intuisi, bukan data spesifik mengenai fitur apa yang benar-benar disukai atau tidak disukai oleh pelanggan.
-    * Manajemen Inventaris menjadi reaktif:\*\* Perusahaan gagal mengidentifikasi produk bermasalah secara proaktif, yang mengakibatkan penumpukan stok barang yang tidak laku.
-    * Pemasaran menjadi tidak efektif:\*\* Pesan pemasaran bersifat umum dan kehilangan kesempatan untuk menyoroti keunggulan produk yang paling dihargai oleh pelanggan.
-    * Retensi Pelanggan menurun:\*\* Masalah spesifik pelanggan tidak teratasi dengan cepat, sehingga loyalitas berkurang dan pelanggan berpotensi beralih ke kompetitor.
+*   Pengembangan Produk menjadi tidak terarah: Keputusan penting dibuat berdasarkan intuisi, bukan data spesifik mengenai fitur apa yang benar-benar disukai atau tidak disukai oleh pelanggan.
+*   Manajemen Inventaris menjadi reaktif: Perusahaan gagal mengidentifikasi produk bermasalah secara proaktif, yang mengakibatkan penumpukan stok barang yang tidak laku.
+*   Pemasaran menjadi tidak efektif: Pesan pemasaran bersifat umum dan kehilangan kesempatan untuk menyoroti keunggulan produk yang paling dihargai oleh pelanggan.
+*   Retensi Pelanggan menurun: Masalah spesifik pelanggan tidak teratasi dengan cepat, sehingga loyalitas berkurang dan pelanggan berpotensi beralih ke kompetitor.
 
 Intinya, masalah utamanya adalah adanya kesenjangan kritis antara data umpan balik pelanggan yang melimpah dengan kemampuan perusahaan untuk memanfaatkannya secara efektif untuk pengambilan keputusan yang cerdas dan berbasis data.
 
@@ -24,11 +24,10 @@ Intinya, masalah utamanya adalah adanya kesenjangan kritis antara data umpan bal
 Tujuan utamanya adalah merancang, membangun, dan memvalidasi sebuah kerangka kerja analitis berbasis AI menggunakan IBM Granite untuk mengubah ulasan pelanggan yang tidak terstruktur menjadi wawasan bisnis yang dapat ditindaklanjuti.
 
 Goals bisnis yang diharapkan dari proyek ini meliputi:
-
-    * Mengurangi tingkat pengembalian produk sebesar 15% untuk kategori produk dengan ulasan negatif terbanyak dalam waktu 6 bulan setelah implementasi.
-    * Meningkatkan Click-Through Rate (CTR) kampanye email sebesar 20% dengan menggunakan tema yang diidentifikasi dari sentimen positif ulasan.
-    * Meningkatkan efektivitas kampanye pemasaran.
-    * Menurunkan churn rate pelanggan sebesar 5% pada kuartal berikutnya dengan proaktif mengatasi keluhan umum yang teridentifikasi.
+*   Mengurangi tingkat pengembalian produk sebesar 15% untuk kategori produk dengan ulasan negatif terbanyak dalam waktu 6 bulan setelah implementasi.
+*   Meningkatkan Click-Through Rate (CTR) kampanye email sebesar 20% dengan menggunakan tema yang diidentifikasi dari sentimen positif ulasan.
+*   Meningkatkan efektivitas kampanye pemasaran.
+*   Menurunkan churn rate pelanggan sebesar 5% pada kuartal berikutnya dengan proaktif mengatasi keluhan umum yang teridentifikasi.
 
 Secara keseluruhan, tujuan jangka panjangnya adalah meningkatkan profitabilitas dan keunggulan kompetitif perusahaan.
 
@@ -82,39 +81,43 @@ Lingkungan \& Bahasa:
 
 **Kesimpulan \& Rekomendasi (Conclusion \& Recommendation)**
 1. &nbsp;Peringkat Bintang Tidak Cukup untuk Mengukur Kepuasan
-Kesimpulan: Analisis membuktikan bahwa peringkat bintang saja bisa menyesatkan. Banyak ulasan dengan rating tinggi (bintang 4) ternyata menyembunyikan keluhan spesifik yang signifikan, terutama terkait masalah "Ukuran \& Kesesuaian".
 
-Rekomendasi: Untuk Tim Operasi E-Commerce: Rombak total panduan ukuran (sizing charts), khususnya untuk departemen "Dresses" dan "Pants", dengan mengintegrasikan umpan balik langsung dari pelanggan untuk mengurangi tingkat pengembalian produk.
+   Kesimpulan: Analisis membuktikan bahwa peringkat bintang saja bisa menyesatkan. Banyak ulasan dengan rating tinggi (bintang 4) ternyata menyembunyikan keluhan spesifik yang signifikan, terutama terkait masalah "Ukuran \& Kesesuaian".
 
-Untuk Tim Produk \& Jaminan Kualitas: Jangan hanya mengandalkan rating tinggi. Segera selidiki produk "Pembunuh Senyap" (rating tinggi, rekomendasi rendah) untuk menemukan masalah fundamental yang berulang.
+   Rekomendasi: Untuk Tim Operasi E-Commerce: Rombak total panduan ukuran (sizing charts), khususnya untuk departemen "Dresses" dan "Pants", dengan mengintegrasikan umpan balik langsung dari pelanggan untuk mengurangi tingkat pengembalian produk.
+   
+   Untuk Tim Produk \& Jaminan Kualitas: Jangan hanya mengandalkan rating tinggi. Segera selidiki produk "Pembunuh Senyap" (rating tinggi, rekomendasi rendah) untuk menemukan masalah fundamental yang berulang.
 
 2. Terdapat Kesenjangan Persepsi Antar Kelompok Usia
-Kesimpulan: Pelanggan yang lebih muda (20-30 tahun) lebih memprioritaskan "Gaya \& Penampilan", sementara pelanggan yang lebih tua (46+ tahun) sangat sensitif terhadap "Kualitas \& Rasa Kain". Umpan balik dari kelompok usia yang lebih tua ini berfungsi sebagai "penanda kualitas" yang kritis.
+   
+   Kesimpulan: Pelanggan yang lebih muda (20-30 tahun) lebih memprioritaskan "Gaya \& Penampilan", sementara pelanggan yang lebih tua (46+ tahun) sangat sensitif terhadap "Kualitas \& Rasa Kain". Umpan balik dari kelompok usia yang lebih tua ini berfungsi sebagai "penanda kualitas" yang kritis.
+   
+   Rekomendasi: Untuk Tim Pemasaran: Buat kampanye iklan yang tersegmentasi untuk menargetkan kelompok usia yang berbeda dengan pesan yang relevan (misalnya, iklan berfokus pada gaya untuk audiens muda, dan iklan berfokus pada kualitas untuk audiens yang lebih tua).
+   
+   Untuk Tim Produk \& Jaminan Kualitas: Implementasikan sistem "Peringatan Dini Kualitas" yang secara otomatis memicu tinjauan produk jika ada peningkatan keluhan terkait kualitas dari demografi usia 46+.
 
-Rekomendasi: Untuk Tim Pemasaran: Buat kampanye iklan yang tersegmentasi untuk menargetkan kelompok usia yang berbeda dengan pesan yang relevan (misalnya, iklan berfokus pada gaya untuk audiens muda, dan iklan berfokus pada kualitas untuk audiens yang lebih tua).
+3. Portofolio Produk Memiliki Anomali Tersembunyi
 
-Untuk Tim Produk \& Jaminan Kualitas: Implementasikan sistem "Peringatan Dini Kualitas" yang secara otomatis memicu tinjauan produk jika ada peningkatan keluhan terkait kualitas dari demografi usia 46+.
-
-3\. Portofolio Produk Memiliki Anomali Tersembunyi
-Kesimpulan: Analisis data berhasil mengidentifikasi "Permata Tersembunyi" (rating sedang, rekomendasi tinggi) yang potensinya belum dimanfaatkan, dan "Pembunuh Senyap" (rating tinggi, rekomendasi rendah) yang merusak reputasi secara diam-diam.
-
-Rekomendasi: Untuk Tim Pemasaran \& Merchandising: Revisi deskripsi produk untuk "Permata Tersembunyi" dengan menggunakan tema dari ringkasan ulasan positif yang dihasilkan AI untuk menonjolkan fitur yang paling disukai pelanggan.
-
-Untuk Tim Produk \& Jaminan Kualitas: Lakukan analisis akar masalah pada produk "Pembunuh Senyap" untuk segera menemukan dan memperbaiki penyebab utama keluhan pelanggan atau mempertimbangkan untuk menghapusnya dari daftar produk.
+   Kesimpulan: Analisis data berhasil mengidentifikasi "Permata Tersembunyi" (rating sedang, rekomendasi tinggi) yang potensinya belum dimanfaatkan, dan "Pembunuh Senyap" (rating tinggi, rekomendasi rendah) yang merusak reputasi secara diam-diam.
+   
+   Rekomendasi: Untuk Tim Pemasaran \& Merchandising: Revisi deskripsi produk untuk "Permata Tersembunyi" dengan menggunakan tema dari ringkasan ulasan positif yang dihasilkan AI untuk menonjolkan fitur yang paling disukai pelanggan.
+   
+   Untuk Tim Produk \& Jaminan Kualitas: Lakukan analisis akar masalah pada produk "Pembunuh Senyap" untuk segera menemukan dan memperbaiki penyebab utama keluhan pelanggan atau mempertimbangkan untuk menghapusnya dari daftar produk.
 
 **AI SUPPORT EXPLANATION**
+
 Analisis Umpan Balik Pelanggan Menggunakan AI
 Proyek ini memanfaatkan kekuatan Kecerdasan Buatan untuk menganalisis dan mengekstrak wawasan berharga dari ulasan pelanggan.
 
 Peran Kecerdasan Buatan dalam Analisis Ini
 Analisis mendalam terhadap umpan balik pelanggan yang disajikan dalam studi kasus ini dimungkinkan secara signifikan berkat pemanfaatan Model Bahasa Besar (LLM), khususnya IBM Granite. Alat AI ini bukan sekadar pengganti otomatisasi sederhana, melainkan agen cerdas yang mampu memahami, menginterpretasikan, dan mengekstraksi makna dari teks yang tidak terstruktur dengan cara yang sebelumnya sulit atau memakan biaya besar untuk dilakukan.
 
-    *   IBM Granite: Kekuatan di Balik Wawasan
-    Model IBM Granite 3.3 8B Instruct mengubah ulasan pelanggan yang tidak terstruktur menjadi data bisnis yang dapat ditindaklanjuti berkat kemampuan intinya:
-    *   Pemahaman Konteks: Mampu memahami nuansa dan sarkasme dalam ulasan, tidak hanya terpaku pada kata kunci.
-    *   Klasifikasi Spesifik: Dapat dilatih untuk mengkategorikan umpan balik ke dalam topik bisnis yang terperinci seperti "Ukuran & Kesesuaian".
-    *   Peringkasan Efektif: Unggul dalam meringkas volume besar ulasan menjadi poin-poin penting yang ringkas dan relevan.
-    *   Skalabilitas: Arsitekturnya mampu menangani analisis data dalam skala besar, dari ribuan hingga jutaan ulasan.
+**IBM Granite**: Kekuatan di Balik Wawasan
+Model IBM Granite 3.3 8B Instruct mengubah ulasan pelanggan yang tidak terstruktur menjadi data bisnis yang dapat ditindaklanjuti berkat kemampuan intinya:
+*   Pemahaman Konteks: Mampu memahami nuansa dan sarkasme dalam ulasan, tidak hanya terpaku pada kata kunci.
+*   Klasifikasi Spesifik: Dapat dilatih untuk mengkategorikan umpan balik ke dalam topik bisnis yang terperinci seperti "Ukuran & Kesesuaian".
+*   Peringkasan Efektif: Unggul dalam meringkas volume besar ulasan menjadi poin-poin penting yang ringkas dan relevan.
+*   Skalabilitas: Arsitekturnya mampu menangani analisis data dalam skala besar, dari ribuan hingga jutaan ulasan.
 
 Secara keseluruhan, model ini memungkinkan perusahaan untuk dengan cepat mengubah data kualitatif menjadi intelijen bisnis untuk strategi produk dan pengalaman pelanggan yang lebih baik.
 
