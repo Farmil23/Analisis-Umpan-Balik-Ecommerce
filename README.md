@@ -10,7 +10,8 @@ Persaingan ketat di industri ritel modern menuntut perusahaan untuk menjadi sang
 Metode manual ini secara langsung menyebabkan kerugian bisnis. Keputusan produk yang tidak berbasis data spesifik dan manajemen inventaris yang reaktif menyebabkan penumpukan stok tidak laku (dead stock). Di sisi lain, strategi pemasaran kehilangan relevansi karena tidak menyoroti fitur yang benar-benar dihargai pelanggan, sementara kegagalan mengatasi keluhan tersembunyi berdampak pada penurunan tingkat retensi. Kondisi ini menciptakan kebutuhan mendesak bagi perusahaan untuk berinvestasi dalam teknologi analisis data canggih, seperti Natural Language Processing (NLP), untuk menggali wawasan yang akurat dan dapat ditindaklanjuti dari ulasan pelanggan.
 
 **Permasalahan (Problem Statement)**
-&nbsp;	Berdasarkan dokumen yang diunggah, kesimpulan permasalahannya adalah \*\*perusahaan ritel tidak mampu mengubah volume besar ulasan pelanggan menjadi wawasan bisnis yang strategis karena masih menggunakan metode analisis manual yang tidak efisien\*\*.
+Permasalahan utama yang dihadapi PT. Ritel Cemerlang adalah ketidakmampuan mengubah volume besar ulasan pelanggan menjadi wawasan bisnis strategis akibat ketergantungan pada metode analisis manual yang tidak efisien.
+
 Hal ini secara langsung menyebabkan kerugian dan kehilangan peluang di berbagai area bisnis inti:
     * Pengembangan Produk menjadi tidak terarah:\*\* Keputusan penting dibuat berdasarkan intuisi, bukan data spesifik mengenai fitur apa yang benar-benar disukai atau tidak disukai oleh pelanggan.
     * Manajemen Inventaris menjadi reaktif:\*\* Perusahaan gagal mengidentifikasi produk bermasalah secara proaktif, yang mengakibatkan penumpukan stok barang yang tidak laku.
@@ -24,10 +25,10 @@ Tujuan utamanya adalah merancang, membangun, dan memvalidasi sebuah kerangka ker
 
 Goals bisnis yang diharapkan dari proyek ini meliputi:
 
-    * Meningkatkan kesesuaian produk dengan pasar (product-market fit).
-    * Mengurangi tingkat pengembalian produk.
+    * Mengurangi tingkat pengembalian produk sebesar 15% untuk kategori produk dengan ulasan negatif terbanyak dalam waktu 6 bulan setelah implementasi.
+    * Meningkatkan Click-Through Rate (CTR) kampanye email sebesar 20% dengan menggunakan tema yang diidentifikasi dari sentimen positif ulasan.
     * Meningkatkan efektivitas kampanye pemasaran.
-    * Memperkuat retensi pelanggan.
+    * Menurunkan churn rate pelanggan sebesar 5% pada kuartal berikutnya dengan proaktif mengatasi keluhan umum yang teridentifikasi.
 
 Secara keseluruhan, tujuan jangka panjangnya adalah meningkatkan profitabilitas dan keunggulan kompetitif perusahaan.
 
@@ -38,18 +39,13 @@ Dataset yang digunakan dalam analisis ini bersumber dari Kaggle. Data ini mencak
 `https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews`
 
 **Deskripsi Data**
-Dataset ini terdiri dari 23486 baris dan 10 kolom. Kolom-kolom utamanya meliputi:
+Dataset ini terdiri dari 23.486 baris dan 10 kolom yang relevan untuk analisis umpan balik. Kolom-kolom kunci yang akan dimanfaatkan meliputi:
 
-    * Clothing ID: ID unik untuk setiap item pakaian yang diulas.
-    * Age: Usia pelanggan yang memberikan ulasan.
-    * Title: Judul dari ulasan.
-    * Review Text: Isi teks dari ulasan yang diberikan pelanggan.
-    * Rating: Peringkat numerik yang diberikan oleh pelanggan dengan skala 1 (terburuk) hingga 5 (terbaik).
-    * Recommended IND: Variabel biner yang menyatakan apakah pelanggan merekomendasikan produk (1 untuk direkomendasikan, 0 untuk tidak).
-    * Positive Feedback Count: Jumlah pelanggan lain yang menganggap ulasan tersebut bermanfaat atau positif.
-    * Division Name: Nama kategori umum (divisi) dari produk.
-    * Department Name: Nama departemen dari produk.
-    * Class Name: Nama kategori spesifik (kelas) dari produk.
+*   Review Text: Sumber data utama yang berisi umpan balik tidak terstruktur dari pelanggan. Kolom ini akan menjadi input utama untuk model NLP IBM Granite.
+*   Rating (1-5): Data kuantitatif yang akan digunakan untuk memvalidasi hasil analisis sentimen dan sebagai fitur tambahan.
+*   Recommended IND (1/0): Indikator biner yang secara langsung menunjukkan kepuasan pelanggan, berguna untuk melatih model klasifikasi.
+*   Department Name & Class Name: Data kategorikal yang memungkinkan segmentasi analisis untuk mengidentifikasi masalah spesifik pada lini produk atau departemen tertentu.
+
 
 **Wawasan \& Temuan (Insight \& Findings)**
 Berikut adalah temuan utama dari analisis ini:
